@@ -15,7 +15,7 @@ title: Search
 
 <script>
 	const params = new URLSearchParams(window.location.search);
-	var keywords = params.getAll('s');
+	var keywords = params.getAll('search');
 
 	var resultsElement = document.getElementById("results");
 	var results = resultsElement.children;
