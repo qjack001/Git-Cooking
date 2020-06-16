@@ -1,0 +1,15 @@
+<header>
+	<button onclick="document.getElementById('menu').classList.toggle('show')">=</button>
+</header>
+<nav id="menu">
+	<h6>Catagory</h6>
+	<a {% if page.select == "meals" %}class="selected"{% endif %} id="c-meals" href="./meals"><span class="icon">🍽️</span>Meals</a>
+	<a {% if page.select == "drinks" %}class="selected"{% endif %} id="c-drinks" href="./drinks"><span class="icon">🍹</span>Drinks</a>
+	<a {% if page.select == "treats" %}class="selected"{% endif %} id="c-treats" href="./treats"><span class="icon">🍪</span>Treats</a>
+	
+	<h6>People</h6>
+	<a id="p-all" href="?p=all"><span class="icon" style="box-shadow: inset 0 0 0 2px #aaa;"></span>All</a>
+	<a id="p-ella" href="?p=ella"><span class="icon" style="background: #B4730B;"></span>Ella</a>
+	<a id="p-jack" href="?p=jack"><span class="icon" style="background: #559990;"></span>Jack</a>
+	<!-- <a id="p-quinn" href="?p=quinn"><span class="icon" style="background: #AD6DBC;"></span>Quinn</a> -->
+</nav>

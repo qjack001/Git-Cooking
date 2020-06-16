@@ -1,0 +1,258 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<style>
+	body
+	{
+		margin: 0;
+		font-family: -apple-system, system-ui, Verdana, sans-serif;
+		text-rendering: optimizeSpeed; 
+		-webkit-font-smoothing: antialiased;    
+		-moz-osx-font-smoothing: grayscale;
+		-moz-font-feature-settings:"kern" 1;
+		-ms-font-feature-settings:"kern" 1;
+		-o-font-feature-settings:"kern" 1;
+		-webkit-font-feature-settings:"kern" 1;
+		font-feature-settings:"kern" 1;
+		font-kerning: normal;
+		background: #eee;
+		color: #222;
+	}
+	
+	::selection
+	{
+		background: #f1cc58;
+	}
+	
+	.icon
+	{
+		display: inline-block;
+		height: 18px;
+		width: 18px;
+		line-height: 18px;
+		text-align: center;
+		font-size: 18px;
+		border-radius: 100%;
+		position: absolute;
+		margin: 3px 3px 3px -32px;
+	}
+	
+	nav
+	{
+		border-right: 1px solid;
+		padding: 10px;
+		user-select: none;
+		position: fixed;
+		width: 250px;
+		height: 100vh;
+		top: 0;
+		left: 0;
+	}
+	
+	nav a
+	{
+		text-decoration: none;
+		color: inherit;
+		font-size: 14px;
+		line-height: 24px;
+		padding: 8px 40px;
+		border-radius: 4px;
+		display: block;
+	}
+	
+	nav a:hover, .selected
+	{
+		background: #ddd;
+	}
+	
+	.selected:hover
+	{
+		background: #d4d4d4;
+	}
+	
+	article
+	{
+		padding: 50px;
+		margin-left: 271px;
+	}
+	
+	h1
+	{
+		font-size: 3rem;
+		line-height: 1.1;
+		margin: 0 0 50px;
+		text-transform: capitalize;
+	}
+	
+	h2
+	{
+		margin: 0 0 20px;
+	}
+	
+	h3
+	{
+		margin-top: 50px;
+	}
+	
+	h6
+	{
+		margin: 50px 5px 20px;
+		font-size: 0.9rem;
+	}
+	
+	p
+	{
+		line-height: 1.6
+	}
+	
+	section
+	{
+		background: #ddd;
+		margin: 30px -25px;
+		padding: 20px 25px 10px;
+		border-radius: 8px
+	}
+	
+	ul, ol
+	{
+		padding-left: 20px;
+	}
+	
+	li
+	{
+		margin: 5px 0;
+	}
+	
+	code
+	{
+		display: inline-block;
+		margin: -4px 0;
+		padding: 4px 1ch;
+		background: #ddd;
+		line-height: 20px;
+		font-family: inherit;
+		border-radius: 4px;
+		
+	}
+	
+	header
+	{
+		display: none;
+	}
+
+	@media screen and (max-width: 850px)
+	{
+		nav
+		{
+			width: 180px;
+		}
+		
+		article
+		{
+			margin-left: 201px;
+		}
+	}
+	
+	@media screen and (max-width: 650px)
+	{
+		header
+		{
+			display: block;
+			position: fixed;
+			top: 5px;
+			left: 5px;
+			z-index: 99;
+		}
+		
+		header button
+		{
+			font-size: 54px;
+			color: #222;
+			background: transparent;
+			border: none;
+			padding: 0 4px;
+			line-height: 42px;
+			outline: none;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+		
+		header button:hover, header button:focus
+		{
+			background: #ddd;
+		}
+		
+		nav
+		{
+			width: 250px;
+			background: #eee;
+			transform: translateX(-271px);
+			transition: transform 0.2s cubic-bezier(.94,.11,1,1);
+			
+		}
+		
+		nav.show
+		{
+			transform: translateX(0px);
+			transition: transform 0.25s cubic-bezier(0,.75,.24,1);
+		}
+		
+		article
+		{
+			margin-left: 0px;
+		}
+	}
+	
+	#results
+	{
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 10px;
+		margin-top: 30px;
+	}
+	
+	.recipe
+	{
+		display: block;
+		border: 1px solid;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 15px 20px;
+		border-radius: 8px;
+		text-decoration: none;
+		color: inherit;
+		text-transform: capitalize;
+	}
+	
+	.recipe:hover
+	{
+		background: #ddd;
+	}
+	
+	.recipe h4, .recipe p
+	{
+		margin: 0;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	
+	.recipe p
+	{
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	
+	.ella .recipe, .quinn .recipe, .jack .recipe, .max .recipe, .arielle .recipe, .bryan .recipe
+	{
+		display: none;
+	}
+	
+	.ella .recipe.ella, .jack .recipe.jack, .quinn .recipe.quinn, .arielle .recipe.arielle, .max .recipe.max, .bryan .recipe.bryan
+	{
+		display: block;
+	}
+</style>
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% feed_meta %}

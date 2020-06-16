@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		{% include nav.html %}
+
+		<article aria-label="Content">
+			{{ content }}
+		</article>
+
+		<script>
+			const urlParams = new URLSearchParams(window.location.search);
+			
+			if(!urlParams.has('p') || urlParams.get('p') == 'all')
+			{
+				document.getElementById('p-all').className = "selected";
+			}
+			else
+			{
+				document.getElementById('p-' + urlParams.get('p')).className = "selected";
+			}
+			
+			document.getElementById('results').className = urlParams.get('p');
+			
+			var links = document.getElementsByTagName('a');
+			
+			for(var i = 0; i < links.length; i++)
+			{
+				if(!links[i].href.includes("?p="))
+				{
+					links[i].href = links[i].href + window.location.search;
+				}
+			}
+		</script>
+	</body>
+</html>
