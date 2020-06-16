@@ -19,10 +19,24 @@
 			}
 			else
 			{
-				document.getElementById('p-' + urlParams.get('p')).className = "selected";
+				try
+				{
+					document.getElementById('p-' + urlParams.get('p')).className = "selected";
+				}
+				catch (e)
+				{
+					// pass
+				}
 			}
 			
-			document.getElementById('results').className = urlParams.get('p');
+			try
+			{
+				document.getElementById('results').className = urlParams.get('p');
+			}
+			catch (e)
+			{
+				// pass
+			}
 			
 			var links = document.getElementsByTagName('a');
 			
