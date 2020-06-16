@@ -330,17 +330,6 @@
 		}
 	}
 </style>
-<script>
-	function search()
-	{
-		var keywords = document.getElementById('search').value.split(" ").filter(function (el) { return el != ""; });
-		
-		if(keywords.length > 0)
-		{
-			window.location.href = "https://guinane.xyz/Git-Cooking/search?s=" + keywords.join("+");
-		}
-	}
-</script>
 <meta name="robots" content="noindex">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 {% feed_meta %}
