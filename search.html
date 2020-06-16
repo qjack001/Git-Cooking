@@ -19,7 +19,7 @@ title: Search
 
 	var resultsElement = document.getElementById("results");
 	var results = resultsElement.children;
-	for (var i = 0; i < c.length; i++)
+	for (var i = 0; i < results.length; i++)
 	{
 		if(keywords.some(v => results[i].dataset.content.includes(v))) 
 		{
