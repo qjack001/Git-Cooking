@@ -218,6 +218,39 @@
 		display: block;
 	}
 
+	nav form
+	{
+		border-radius: 4px;
+		line-height: 24px;
+	}
+
+	nav form:focus-within
+	{
+		background: #ddd;
+	}
+
+	nav button
+	{
+		border: none;
+		outline: none;
+		background: transparent;
+		padding: 0 5px 0 10px;
+		opacity: 0.5;
+		transform: translateY(1px);
+		cursor: pointer;
+	}
+
+	nav input
+	{
+		background: transparent;
+		border: none;
+		line-height: 40px;
+		width: calc(100% - 40px);
+		padding: 0 0 0 10px;
+		outline: none;
+		font-size: 14px;
+	}
+
 	@keyframes rotate
 	{
 		from { transform: rotate(0deg); }
