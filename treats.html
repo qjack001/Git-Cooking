@@ -1,0 +1,15 @@
+---
+layout: default
+title: Treats
+select: treats
+---
+
+<h2>Treats</h2>
+<div id="results">
+	{% for post in site.categories.treats %}
+		<a class="recipe {{ post.author | downcase }}" href="/Git-Cooking{{ post.url }}">
+			<h4>{{ post.title }}</h4>
+			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; &lt; 15m</p>
+		</a>
+	{% endfor %}
+</div>
