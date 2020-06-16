@@ -15,7 +15,7 @@ defaults:
       type: posts
     values:
       permalink: meals/:title
-      layout: default
+      layout: post
       category: meals
       select: meals
   - scope:
@@ -23,7 +23,7 @@ defaults:
       type: posts
     values:
       permalink: drinks/:title
-      layout: default
+      layout: post
       category: drinks
       select: drinks
   - scope:
@@ -31,7 +31,7 @@ defaults:
       type: posts
     values:
       permalink: treats/:title
-      layout: default
+      layout: post
       category: treats
       select: treats
 

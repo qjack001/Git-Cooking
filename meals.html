@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Meals
+select: meals
 ---
 
 <h2>Meals</h2>
 <div id="results">
 	{% for post in site.categories.meals %}
-		<a class="recipe {{ post.author | downcase }}" href="post.url">
+		<a class="recipe {{ post.author | downcase }}" href="{{ post.url }}">
 			<h4>{{ post.title }}</h4>
 			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; &lt; 15m</p>
 		</a>
