@@ -7,7 +7,7 @@ select: search
 <h2>Search</h2>
 <div id="results" class="search">
 	{% for post in site.posts %}
-		<a class="recipe {{ post.author | downcase }}" href="/Git-Cooking{{ post.url }}" data-content="{{ post.content | strip_html | strip_newlines | slugify: 'ascii' | replace: '-',' ' | downcase }}">
+		<a class="recipe {{ post.author | downcase }}" href="/Git-Cooking{{ post.url }}" data-content="{{ post.title | slugify: 'ascii' | replace: '-',' ' | downcase }} {{ post.content | strip_html | strip_newlines | slugify: 'ascii' | replace: '-',' ' | downcase }}">
 			<h4>{{ post.title }}</h4>
 			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; &lt; 15m</p>
 		</a>
@@ -22,9 +22,13 @@ select: search
 	var results = resultsElement.children;
 	for (var i = 0; i < results.length; i++)
 	{
-		if(keywords.some(v => results[i].dataset.content.includes(v))) 
+		for(var j = 0; j < keywords.length; j++)
 		{
-			results[i].style.display = "block";
+			if(results[i].dataset.content.includes(keywords[j].toLowerCase()))
+			{
+				results[i].style.display = "block";
+				break;
+			}
 		}
 	}
 
