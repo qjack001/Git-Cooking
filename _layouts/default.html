@@ -54,20 +54,6 @@
 					}
 				}
 			}
-
-			function search()
-			{
-				var keywords = document.getElementById('search').value.split(" ").filter(function (el) { return el != ""; });
-
-				console.log(keywords);
-				console.log("https://guinane.xyz/Git-Cooking/search?s=" + keywords.join("+"));
-
-
-				if(keywords.length > 0)
-				{
-					window.location.href = "https://guinane.xyz/Git-Cooking/search?s=" + keywords.join("+");
-				}
-			}
 		</script>
 	</body>
 </html>
