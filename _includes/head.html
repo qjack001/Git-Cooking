@@ -141,6 +141,89 @@
 		display: none;
 	}
 
+	#results
+	{
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 10px;
+		margin-top: 30px;
+	}
+
+	#results.search
+	{
+		display: none;
+	}
+	
+	#results.search::after
+	{
+		content: "";
+		display: block;
+		margin: 20px auto;
+		width: 50px;
+		height: 50px;
+		border: 5px solid #ddd;
+		border-left: none;
+		animation: rotate 0.5s ease 0s infinite;
+	}
+
+	#results.search-loaded
+	{
+		display: block;
+	}
+
+	#results.search-loaded > a, #results.search > a
+	{
+		display: none;
+	}
+	
+	.recipe
+	{
+		display: block;
+		border: 1px solid;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 15px 20px;
+		border-radius: 8px;
+		text-decoration: none;
+		color: inherit;
+		text-transform: capitalize;
+	}
+	
+	.recipe:hover
+	{
+		background: #ddd;
+	}
+	
+	.recipe h4, .recipe p
+	{
+		margin: 0;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	
+	.recipe p
+	{
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	
+	.ella .recipe, .quinn .recipe, .jack .recipe, .max .recipe, .arielle .recipe, .bryan .recipe
+	{
+		display: none;
+	}
+	
+	.ella .recipe.ella, .jack .recipe.jack, .quinn .recipe.quinn, .arielle .recipe.arielle, .max .recipe.max, .bryan .recipe.bryan
+	{
+		display: block;
+	}
+
+	@keyframes rotate
+	{
+		from { transform: rotate(0deg); }
+		to { transform: rotate(360deg); }
+	}
+
 	@media screen and (max-width: 850px)
 	{
 		nav
@@ -202,56 +285,6 @@
 		{
 			margin-left: 0px;
 		}
-	}
-	
-	#results
-	{
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 10px;
-		margin-top: 30px;
-	}
-	
-	.recipe
-	{
-		display: block;
-		border: 1px solid;
-		width: 100%;
-		box-sizing: border-box;
-		padding: 15px 20px;
-		border-radius: 8px;
-		text-decoration: none;
-		color: inherit;
-		text-transform: capitalize;
-	}
-	
-	.recipe:hover
-	{
-		background: #ddd;
-	}
-	
-	.recipe h4, .recipe p
-	{
-		margin: 0;
-		text-overflow: ellipsis;
-		overflow: hidden;
-		white-space: nowrap;
-	}
-	
-	.recipe p
-	{
-		margin-top: 20px;
-		font-size: 14px;
-	}
-	
-	.ella .recipe, .quinn .recipe, .jack .recipe, .max .recipe, .arielle .recipe, .bryan .recipe
-	{
-		display: none;
-	}
-	
-	.ella .recipe.ella, .jack .recipe.jack, .quinn .recipe.quinn, .arielle .recipe.arielle, .max .recipe.max, .bryan .recipe.bryan
-	{
-		display: block;
 	}
 </style>
 <meta name="robots" content="noindex">

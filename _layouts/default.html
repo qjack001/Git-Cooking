@@ -38,13 +38,30 @@
 				// pass
 			}
 			
-			var links = document.getElementsByTagName('a');
-			
-			for(var i = 0; i < links.length; i++)
+			if(urlParams.has('s'))
 			{
-				if(!links[i].href.includes("?p="))
+				document.getElementById("seach").value = urlParams.getAll('s').join(" ");
+			}
+			else
+			{
+				var links = document.getElementsByTagName('a');
+				
+				for(var i = 0; i < links.length; i++)
 				{
-					links[i].href = links[i].href + window.location.search;
+					if(!links[i].href.includes("?p="))
+					{
+						links[i].href = links[i].href + window.location.search;
+					}
+				}
+			}
+
+			function search()
+			{
+				var keywords = document.getElementById('search').value.split(" ").filter(function (el) { return el != ""; });
+
+				if(keywords.length > 0)
+				{
+					window.location.href = "/Git-Cooking/search?s=" + keywords.join("+");
 				}
 			}
 		</script>

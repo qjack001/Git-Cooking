@@ -1,0 +1,31 @@
+---
+layout: default
+title: Search
+---
+
+<h2>Search</h2>
+<div id="results" class="search">
+	{% for post in site.categories.treats %}
+		<a class="recipe {{ post.author | downcase }}" href="/Git-Cooking{{ post.url }}" data-content="{{ post.title | slugify: 'ascii' | replace: '-',' ' | downcase }} {{ post.content | strip_html | strip_newlines | slugify: 'ascii' | replace: '-',' ' | downcase }}">
+			<h4>{{ post.title }}</h4>
+			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; &lt; 15m</p>
+		</a>
+	{% endfor %}
+</div>
+
+<script>
+	const params = new URLSearchParams(window.location.search);
+	var keywords = params.getAll('s');
+
+	var resultsElement = document.getElementById("results");
+	var results = resultsElement.children;
+	for (var i = 0; i < c.length; i++)
+	{
+		if(keywords.some(v => results[i].dataset.content.includes(v))) 
+		{
+			results[i].style.display = "block";
+		}
+	}
+
+	resultsElement.className = "search-loaded";
+</script>
