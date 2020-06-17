@@ -4,12 +4,20 @@ title: Drinks
 select: drinks
 ---
 
-<h2>Drinks</h2>
+<h2>Drinks
+<select name="time" onchange="document.getElementById(results).classList.remove('time-15', 'time-60', 'time-60-plus', 'time-1-day'); document.getElementById(results).classList.add(this.value);">
+	<option selected value="time-any">Any</option>
+	<option value="time-15">&lt; 15 min></option>
+	<option value="time-60">&lt; 1 hour</option>
+	<option value="time-60-plus">1+ hour</option>
+	<option value="time-1-day">1+ day</option>
+</select>
+</h2>
 <div id="results">
 	{% for post in site.categories.drinks %}
-		<a class="recipe {{ post.author | downcase }}" href="/Git-Cooking{{ post.url }}">
+		<a class="recipe {{ post.author | downcase }} {% if post.time <= 15 %}time-15{% elsif post.time <= 60 %}time-60{% elsif post.time < 1000 %}time-60-plus{% else %}time-1-day{% endif %}" href="/Git-Cooking{{ post.url }}">
 			<h4>{{ post.title }}</h4>
-			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; &lt; 15m</p>
+			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; &lt; {% if post.time <= 15 %}&lt; 15 min{% elsif post.time <= 60 %}&lt; 1 hour{% elsif post.time < 1000 %}1+ hour{% else %}1+ day{% endif %}</p>
 		</a>
 	{% endfor %}
 </div>
