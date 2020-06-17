@@ -168,7 +168,7 @@
 
 	#results.search-loaded
 	{
-		display: block;
+		display: grid;
 	}
 	
 	.recipe
@@ -207,15 +207,25 @@
 		margin-top: 20px;
 		font-size: 14px;
 	}
-	
-	.ella .recipe, .quinn .recipe, .jack .recipe, .max .recipe, .arielle .recipe, .bryan .recipe
+
+	.ella .recipe, .quinn .recipe, .jack .recipe, .max .recipe, .arielle .recipe, .bryan .recipe, .time-15 .recipe, .time-60 .recipe, .time-60-plus .recipe, .time-1-day .recipe 
 	{
 		display: none;
 	}
-	
-	.ella .recipe.ella, .jack .recipe.jack, .quinn .recipe.quinn, .arielle .recipe.arielle, .max .recipe.max, .bryan .recipe.bryan
+
+	.ella .recipe.ella, .jack .recipe.jack, .quinn .recipe.quinn, .arielle .recipe.arielle, .max .recipe.max, .time-15 .recipe.time-15, .time-60 .recipe.time-60, .time-60-plus .recipe.time-60-plus, .time-1-day .recipe.time-1-day
 	{
 		display: block;
+	}
+
+	.ella.time-15 .recipe, .ella.time-60 .recipe, .ella.time-60-plus .recipe, .ella.time-1-day .recipe, .jack.time-15 .recipe, .jack.time-60 .recipe, .jack.time-60-plus .recipe, .jack.time-1-day .recipe, .quinn.time-15 .recipe, .quinn.time-60 .recipe, .quinn.time-60-plus .recipe, .quinn.time-1-day .recipe, .max.time-15 .recipe, .max.time-60 .recipe, .max.time-60-plus .recipe, .max.time-1-day .recipe, .arielle.time-15 .recipe, .arielle.time-60 .recipe, .arielle.time-60-plus .recipe, .arielle.time-1-day .recipe
+	{
+		display: none !important;
+	}
+
+	.ella.time-15 .recipe.ella.time-15, .ella.time-60 .recipe.ella.time-60, .ella.time-60-plus .recipe.ella.time-60-plus, .ella.time-1-day .recipeella.time-1-day, .jack.time-15 .recipe.jack.time-15, .jack.time-60 .recipe.jack.time-60, .jack.time-60-plus .recipe.jack.time-60-plus, .jack.time-1-day .recipe.jack.time-1-day, .quinn.time-15 .recipe.quinn.time-15, .quinn.time-60 .recipe.quinn.time-60, .quinn.time-60-plus .recipe.quinn.time-60-plus, .quinn.time-1-day .recipe.quinn.time-1-day, .max.time-15 .recipe.max.time-15, .max.time-60 .recipe.max.time-60, .max.time-60-plus .recipe.max.time-60-plus, .max.time-1-day .recipe.max.time-1-day, .arielle.time-15 .recipe.arielle.time-15, .arielle.time-60 .recipe.arielle.time-60, .arielle.time-60-plus .recipe.arielle.time-60-plus, .arielle.time-1-day .recipe.arielle.time-1-day
+	{
+		display: block !important;
 	}
 
 	nav form
@@ -234,6 +244,7 @@
 		border: none;
 		outline: none;
 		background: transparent;
+		color: inherit;
 		padding: 0 5px 0 10px;
 		opacity: 0.5;
 		transform: translateY(1px);
@@ -243,6 +254,7 @@
 	nav input
 	{
 		background: transparent;
+		color: inherit;
 		border: none;
 		line-height: 40px;
 		width: calc(100% - 50px);
