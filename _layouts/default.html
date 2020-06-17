@@ -29,13 +29,13 @@
 				}
 			}
 			
-			try
+			if(document.getElementById('results').className == "search-loaded" && urlParams.has('p'))
+			{
+				document.getElementById('results').className = "search-loaded" + urlParams.get('p');
+			}
+			else if(urlParams.has('p'))
 			{
 				document.getElementById('results').className = urlParams.get('p');
-			}
-			catch (e)
-			{
-				// pass
 			}
 			
 			if(urlParams.has('search'))
