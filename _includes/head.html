@@ -170,11 +170,6 @@
 	{
 		display: block;
 	}
-
-	#results.search-loaded > a, #results.search > a
-	{
-		display: none;
-	}
 	
 	.recipe
 	{
@@ -187,6 +182,11 @@
 		text-decoration: none;
 		color: inherit;
 		text-transform: capitalize;
+	}
+
+	#results.search-loaded > a.recipe, #results.search > a.recipe
+	{
+		display: none;
 	}
 	
 	.recipe:hover
