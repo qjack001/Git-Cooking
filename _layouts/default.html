@@ -31,7 +31,7 @@
 			
 			if(document.getElementById('results').className == "search-loaded" && urlParams.has('p'))
 			{
-				document.getElementById('results').className = "search-loaded" + urlParams.get('p');
+				document.getElementById('results').className = "search-loaded" + " " + urlParams.get('p');
 			}
 			else if(urlParams.has('p'))
 			{
