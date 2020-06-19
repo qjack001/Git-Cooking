@@ -41,12 +41,6 @@
 			if(urlParams.has('search'))
 			{
 				document.getElementById("search").value = urlParams.getAll('search').join(" ");
-				var people = document.getElementsByClassName("person");
-
-				for(var i = 0; i < people.length; i++)
-				{
-					links[i].href = links[i].href + "&search=" + urlParams.getAll('search').join("+");
-				}
 			}
 			else
 			{
