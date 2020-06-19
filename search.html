@@ -4,7 +4,14 @@ title: Search
 select: search
 ---
 
-<h2>Search</h2>
+<h2>Search
+<select name="time" onchange="document.getElementById('results').classList.remove('time-15', 'time-60', 'time-60-plus', 'time-1-day'); document.getElementById('results').classList.add(this.value);">
+	<option selected value="time-any">Any</option>
+	<option value="time-15">&lt; 15 min</option>
+	<option value="time-60">&lt; 1 hour</option>
+	<option value="time-60-plus">1+ hour</option>
+	<option value="time-1-day">1+ day</option>
+</select>
 <div id="results" class="search">
 	{% for post in site.posts %}
 		<a class="recipe {{ post.author | downcase }}" href="/Git-Cooking{{ post.url }}" data-content="{{ post.title | slugify: 'ascii' | replace: '-',' ' | downcase }} {{ post.content | strip_html | strip_newlines | slugify: 'ascii' | replace: '-',' ' | downcase }}">
