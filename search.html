@@ -29,15 +29,24 @@ permalink: /search/
 
 	var resultsElement = document.getElementById("results");
 	var results = resultsElement.children;
+	var match = false;
+
 	for (var i = 0; i < results.length; i++)
 	{
+		match = false;
+
 		for(var j = 0; j < keywords.length; j++)
 		{
 			if(results[i].dataset.content.includes(keywords[j].toLowerCase()))
 			{
-				results[i].style.display = "block";
+				match = true;
 				break;
 			}
+		}
+
+		if(!match)
+		{
+			resultsElement.removeChild(results[i]);
 		}
 	}
 
