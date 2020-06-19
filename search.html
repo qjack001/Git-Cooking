@@ -29,25 +29,25 @@ permalink: /search/
 
 	var resultsElement = document.getElementById("results");
 	var results = resultsElement.children;
-	var match = false;
+	var nonMatches = [];
 
-	for (var i = 0; i < results.length; i++)
+	for(var i = 0; i < results.length; i++)
 	{
-		match = false;
+		nonMatches.push(i);
 
 		for(var j = 0; j < keywords.length; j++)
 		{
 			if(results[i].dataset.content.includes(keywords[j].toLowerCase()))
 			{
-				match = true;
+				nonMatches.pop();
 				break;
 			}
 		}
+	}
 
-		if(!match)
-		{
-			resultsElement.removeChild(results[i]);
-		}
+	for(var i = 0; i < nonMatches.length; i++)
+	{
+		resultsElement.removeChild(results[nonMatches[i]]);
 	}
 
 	resultsElement.className = "search-loaded";
