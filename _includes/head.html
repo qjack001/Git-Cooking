@@ -149,21 +149,22 @@
 		margin-top: 30px;
 	}
 
-	#results.search
+	#results.search > a.recipe 
 	{
-		display: none;
+		display: none !important;
 	}
 	
 	#results.search::after
 	{
 		content: "";
 		display: block;
-		margin: 20px auto;
-		width: 50px;
-		height: 50px;
-		border: 5px solid #ddd;
-		border-left: none;
-		animation: rotate 0.5s ease 0s infinite;
+		margin: 20px 80px;
+		height: 30px;
+		width: 30px;
+		border: 15px solid #ddd;
+		border-left-color: transparent;
+		border-radius: 100%;
+		animation: rotate 1s linear 0s infinite;
 	}
 
 	#results.search-loaded
@@ -183,7 +184,7 @@
 		color: inherit;
 		text-transform: capitalize;
 	}
-	
+
 	.recipe:hover
 	{
 		background: #ddd;

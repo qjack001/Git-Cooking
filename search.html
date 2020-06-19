@@ -16,9 +16,9 @@ permalink: /search/
 </h2>
 <div id="results" class="search">
 	{% for post in site.posts %}
-		<a class="recipe {{ post.author | downcase }}" href="/Git-Cooking{{ post.url }}" data-content="{{ post.title | slugify: 'ascii' | replace: '-',' ' | downcase }} {{ post.content | strip_html | strip_newlines | slugify: 'ascii' | replace: '-',' ' | downcase }}">
+		<a class="recipe {{ post.author | downcase }}  {% if post.time <= 15 %}time-15{% elsif post.time <= 60 %}time-60{% elsif post.time < 1000 %}time-60-plus{% else %}time-1-day{% endif %}" href="/Git-Cooking{{ post.url }}" data-content="{{ post.title | slugify: 'ascii' | replace: '-',' ' | downcase }} {{ post.content | strip_html | strip_newlines | slugify: 'ascii' | replace: '-',' ' | downcase }}">
 			<h4>{{ post.title }}</h4>
-			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; &lt; 15m</p>
+			<p>{{ post.author }} &nbsp;&nbsp; — &nbsp;&nbsp; {% if post.time <= 15 %}&lt; 15 min{% elsif post.time <= 60 %}&lt; 1 hour{% elsif post.time < 1000 %}1+ hour{% else %}1+ day{% endif %}</p>
 		</a>
 	{% endfor %}
 </div>
