@@ -33,7 +33,7 @@ permalink: /search/
 
 	for(var i = 0; i < results.length; i++)
 	{
-		nonMatches.push(i);
+		nonMatches.push(results[i]);
 
 		for(var j = 0; j < keywords.length; j++)
 		{
@@ -47,7 +47,7 @@ permalink: /search/
 
 	for(var i = 0; i < nonMatches.length; i++)
 	{
-		resultsElement.removeChild(results[nonMatches[i]]);
+		resultsElement.removeChild(nonMatches[i]);
 	}
 
 	resultsElement.className = "search-loaded";
