@@ -1,7 +1,7 @@
 ---
 title: Blueberry corn muffins
 author: Ella
-time: 10
+time: 30
 ---
 
 Makes 10-12 muffins. Easy.
