@@ -2,9 +2,9 @@
 # Site settings
 title: Git Cooking
 description: > # this means to ignore newlines until "baseurl:"
-  A recipe manager.
-baseurl: "/Git-Cooking"
-url: "https://guinane.xyz"
+  A version controlled recipe manager.
+baseurl:
+url: "https://git-cook.net"
 
 # Markdown settings
 markdown: kramdown
