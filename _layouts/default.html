@@ -29,13 +29,20 @@
 				}
 			}
 			
-			if(document.getElementById('results').className == "search-loaded" && urlParams.has('p'))
+			try
 			{
-				document.getElementById('results').className = "search-loaded" + " " + urlParams.get('p');
+				if(document.getElementById('results').className == "search-loaded" && urlParams.has('p'))
+				{
+					document.getElementById('results').className = "search-loaded" + " " + urlParams.get('p');
+				}
+				else if(urlParams.has('p'))
+				{
+					document.getElementById('results').className = urlParams.get('p');
+				}
 			}
-			else if(urlParams.has('p'))
+			catch (e)
 			{
-				document.getElementById('results').className = urlParams.get('p');
+				// pass
 			}
 			
 			if(urlParams.has('search'))
