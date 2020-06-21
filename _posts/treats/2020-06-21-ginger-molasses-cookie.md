@@ -1,5 +1,5 @@
 ---
-title: Simple Cornbread
+title: Ginger Molasses Cookies
 author: Quinn
 time: 75
 ---
