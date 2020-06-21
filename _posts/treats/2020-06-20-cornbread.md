@@ -28,7 +28,7 @@ Makes 1 12 inch cornbread
 
 ## Instructions
 
-1. Preheat oven to 400 degrees F with 12 cast iron pan in oven
+1. Preheat oven to 400°F with 12 cast iron pan in oven
 2. Brown Butter
 3. If using herbs pour browned butter over herbs
 4. Mix dry ingredients and sugar in a bowl and whisk to combine
