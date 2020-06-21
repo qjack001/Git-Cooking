@@ -35,7 +35,7 @@ These are great cookies and this recipe makes enough to have cookies in your fri
 6. Place dough in fridge for 2 hours to over night to firm up
 7. Preheat over to 350°F
 8. Roll dough in to 1 inch balls and coat in sugar
-9. bake for 8-10 minutes
+9. Bake for 8-10 minutes
 
 
 ### Notes
