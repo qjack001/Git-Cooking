@@ -4,7 +4,7 @@ author: Ella
 time: 30
 ---
 
-Makes 10-12 muffins. Easy.
+Makes 10-12 muffins. Easy. Made with pantry ingredients. 
 
 <section markdown="1">
 
@@ -32,4 +32,4 @@ Makes 10-12 muffins. Easy.
 
 ### Notes
 
-The muffins need to sit for around 5-10 minutes after being taken out of the oven to firm up. Sprinkling a bit of sugar ontop of the raw batter could make a nice crust. Recipie from allrecipies.com. 
+The muffins need to sit for around 5-10 minutes after being taken out of the oven to firm up. Sprinkling a bit of sugar ontop of the raw batter could make a nice crust, and blueberries can be substituted for any other fresh/frozen fruit on hand. Recipie from allrecipies.com. 
