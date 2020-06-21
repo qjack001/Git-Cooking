@@ -45,14 +45,14 @@
 				// pass
 			}
 			
-			if(urlParams.has('search'))
+			if(urlParams.has('query'))
 			{
-				document.getElementById("search").value = urlParams.getAll('search').join(" ");
+				document.getElementById("search").value = urlParams.getAll('query').join(" ");
 				var people = document.getElementsByClassName("person");
 
 				for(var i = 0; i < people.length; i++)
 				{
-					people[i].href = people[i].href + "&search=" + urlParams.getAll('search').join("+");
+					people[i].href = people[i].href + "&query=" + urlParams.getAll('query').join("+");
 				}
 			}
 			else
