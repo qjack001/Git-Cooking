@@ -10,9 +10,9 @@ Coffee foam served on a brewed coffee (as opposed to milk). I find the flavours 
 
 ## Ingredients
 
-- 2 spoons of instant coffee (or 6&sbsp;g)
-- 2 spoons of white sugar (or 21&sbsp;g)
-- 2 spoons of hot water (or 20&sbsp;ml)
+- 2 spoons of instant coffee (or 6 g)
+- 2 spoons of white sugar (or 21 g)
+- 2 spoons of hot water (or 20 ml)
 - 1 cup of brewed coffee
 
 </section>
