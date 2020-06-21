@@ -25,6 +25,5 @@ A fun twist on a Gin & Tonic
 
 ### Notes
 
-If you want to add so extra fun to the drink use fever tree aromatic tonic water to make the drink pink. 
-
+If you want to add some extra fun to the drink use fever tree aromatic tonic water to make the drink pink. 
 Adapted from Musiki in Kingston
