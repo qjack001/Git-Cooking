@@ -183,6 +183,9 @@
 		text-decoration: none;
 		color: inherit;
 		text-transform: capitalize;
+		background-position: right bottom;
+		background-size: 250px;
+		background-repeat: no-repeat;
 	}
 
 	.recipe:hover
@@ -300,6 +303,16 @@
 	{
 		margin: 80px auto;
 		width: 450px;
+	}
+
+	#cards
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 10px;
+		grid-template-rows: 250px;
+		max-width: 700px;
+		margin: auto;
 	}
 
 	@keyframes rotate
