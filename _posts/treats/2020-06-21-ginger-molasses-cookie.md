@@ -28,7 +28,7 @@ These are great cookies and this recipe makes enough to have cookies in your fri
 ## Instructions
 
 1. In a bowl combine dry ingredients
-2. Cream butter and both the white and brown sugar together till light and fluffy
+2. In the largest bowl you own, cream butter and both the white and brown sugar together till light and fluffy
 3. Mix in eggs one by one
 4. Add molasses and mix to combined
 5. Gradually add the dry ingredients 
