@@ -183,11 +183,14 @@
 		text-decoration: none;
 		color: inherit;
 		text-transform: capitalize;
+		background-position: right bottom;
+		background-size: 250px;
+		background-repeat: no-repeat;
 	}
 
 	.recipe:hover
 	{
-		background: #ddd;
+		background-color: #ddd;
 	}
 	
 	.recipe h4, .recipe p
@@ -289,6 +292,29 @@
 		font-size: 14px;
 	}
 
+	#pan
+	{
+		max-width: 100%;
+		transform: translateY(40px);
+		margin-right: 15px;
+	}
+
+	#logo
+	{
+		margin: 60px auto 80px;
+		width: 450px;
+	}
+
+	#cards
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 10px;
+		grid-template-rows: 250px;
+		max-width: 700px;
+		margin: auto;
+	}
+
 	@keyframes rotate
 	{
 		from { transform: rotate(0deg); }
@@ -305,6 +331,27 @@
 		article
 		{
 			margin-left: 201px;
+		}
+	}
+
+	@media screen and (max-width: 710px)
+	{
+		#logo
+		{
+			width: auto;
+			text-align: center;
+		}
+
+		#logo h3
+		{
+			margin: 0 !important;
+		}
+
+		#pan
+		{
+			transform: none;
+			margin: 0 auto 0 auto;
+			display: block;
 		}
 	}
 	
@@ -355,6 +402,13 @@
 		article
 		{
 			margin-left: 0px;
+		}
+	}
+	@media screen and (max-width: 470px)
+	{
+		#cards {
+			grid-template-columns: unset;
+			grid-template-rows: repeat(3, 250px);
 		}
 	}
 </style>

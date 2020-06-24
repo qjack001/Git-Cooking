@@ -11,6 +11,7 @@ time: 20
 - 1/2 a stick of butter
 - 1 or 2 containers of mushrooms
 - 1 spagetti squash
+- 1 Tbsp of soy sauce
 - Half a yellow onion
 - A couple cloves of garlic
 - Cinnamon
@@ -43,6 +44,7 @@ time: 20
 5. Cut up garlic finely and mix in (with a little bit more butter)
 6. Add cinnamon (about 1 Tbsp) and salt/pepper to taste
 7. Let simmer on medium heat, covered, stirring occasionally and adding more butter if needed
+8. Add soy sauce
 8. Once the consistancy of gravy, pour on top of spagetti squash
 9. Garnish with green onion
 
