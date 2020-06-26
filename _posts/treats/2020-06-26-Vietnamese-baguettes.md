@@ -4,7 +4,7 @@ author: Ella
 time: 120
 ---
 
-Makes 6 mini baguettes. Can be a bit tricky, especcially without a baguette baking tray.
+Makes 6 mini baguettes. Can be a bit tricky, especially without a baguette baking tray.
 
 <section markdown="1">
 
