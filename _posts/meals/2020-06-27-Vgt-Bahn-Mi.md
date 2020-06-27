@@ -1,5 +1,5 @@
 ---
-title: Vgt. Bahn mi
+title: Vegt. Bahn mi
 author: Ella
 time: 40
 ---
