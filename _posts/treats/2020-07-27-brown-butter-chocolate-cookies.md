@@ -21,7 +21,7 @@ Make a good amount of the best chocolate chip cookies
 - 1/2–1 bar of 70–78% dark chocolate
 - flaky salt (optional)
 
-<section/>
+</section>
 
 ## Instructions
 
