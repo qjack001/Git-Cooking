@@ -9,7 +9,6 @@ time: 5-10
 Creamy (ish) sweet (ish) salad! 
 <section markdown="1">
 ## Ingredients
-
 <!-- list the ingredients below -->
 - 2-3 cups broccoli, cut into small pieces
 - 2-3 tbsp chopped onion
