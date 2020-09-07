@@ -36,7 +36,7 @@ Crunchier than cabbage kimchi! Definitely not traditional and pretty customizabl
   - 1 tsp sesame oil
   - 1.5% salt by weight
 
-## </section>
+</section>
 
 
 
