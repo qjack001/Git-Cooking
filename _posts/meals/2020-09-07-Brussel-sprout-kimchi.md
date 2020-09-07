@@ -14,9 +14,7 @@ Crunchier than cabbage kimchi! Definitely not traditional and pretty customizabl
 
 <section markdown="1">
 
-## Ingredient
-
-## <!-- list the ingredients below -->
+## Ingredients
 
 - Vegetables
   - ~ 450g brussel sprouts 
@@ -37,8 +35,6 @@ Crunchier than cabbage kimchi! Definitely not traditional and pretty customizabl
   - 1.5% salt by weight
 
 </section>
-
-
 
 ## Instructions
 
