@@ -55,7 +55,7 @@ If you want to make this in advance, you can either:
 
 -  Just brown the bottom and only cook in the oven before serving
 - Only cook about it in the oven for 30 minutes, then reheat in the oven and cook until crispy before serving
-  - Brush with more butter before adding to oven
+  - Brush with more butter before adding back to oven
 
 If you want more of the creamy inside, use a smaller diameter pan and if you want more of the crispy outside, use a bigger one! Adjust cook time and oven temperature as needed.
 
