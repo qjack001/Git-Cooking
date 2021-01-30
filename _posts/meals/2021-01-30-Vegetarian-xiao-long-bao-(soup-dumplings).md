@@ -11,30 +11,30 @@ Difficult
 ## Ingredients
 
 Skins
--300g of flour
--160 ml of warm water
--pinch of salt
+- 300g of flour
+- 160 ml of warm water
+- pinch of salt
 
 Filling
--1 package of beyond meat ground
--2-3 finely chopped green onions
--2 ish cups of finely grated cabbage
--a few pinches of sugar
--a few pinches of msg
--soy sauce to taste
--tablespoon of chinese black vinegar
--sesame oil to taste
--two tablespoons of milk solids (skimmed off of ghee)
+- 1 package of beyond meat ground
+- 2-3 finely chopped green onions
+- 2 ish cups of finely grated cabbage
+- a few pinches of sugar
+- a few pinches of msg
+- soy sauce to taste
+- tablespoon of chinese black vinegar
+- sesame oil to taste
+- two tablespoons of milk solids (skimmed off of ghee)
 
 Soup base/aspic
--3 green onions
--handful of sichuan peppercorns and white peppercorns
--knob of ginger
--1-2 cloves of garlic (keep it light)
--small amount of soy sauce and chinese black vinegar
--shittake mushrooms
--homemade veggie broth 
--gelatin or agar agar
+- 3 green onions
+- handful of sichuan peppercorns and white peppercorns
+- knob of ginger
+- 1-2 cloves of garlic (keep it light)
+- small amount of soy sauce and chinese black vinegar
+- shittake mushrooms
+- homemade veggie broth 
+- gelatin or agar agar
 
 </section>
 
@@ -49,8 +49,8 @@ Soup base/aspic
 7. Steam for 8-10 minutes, depending on dumpling size.    
 
 ### Notes
--Generally you want to try to have enough aspic that your filling is 1/3 to 1/2 soup jelly to meat. You will want more than you think if you want really soupy dumplings, because the filling and skins will absorb some of the soup. 
--The good news with making vegetarian dumplings is that you can taste the meat filling for seasoning as you go, which I would highly recommend to make sure it is adequatly salty and balanced when it comes to components like sesame oil and green onions. 
--adding leftover milk solids from making ghee or just some plain ghee goes a long way in increasing the dumpling's richness 
--unless you have been making dumpling skins for years or have a pasta machine to roll them out for you I do not recommend trying to make them at home. This recipie is already annoyingly time consuming
--that being said, the good part of making skins yourself is size control. I recommend making them slightly larger than you think you'll need to make your life easier when folding the dumplings.
+- Generally you want to try to have enough aspic that your filling is 1/3 to 1/2 soup jelly to meat. You will want more than you think if you want really soupy dumplings, because the filling and skins will absorb some of the soup. 
+- The good news with making vegetarian dumplings is that you can taste the meat filling for seasoning as you go, which I would highly recommend to make sure it is adequatly salty and balanced when it comes to components like sesame oil and green onions. 
+- adding leftover milk solids from making ghee or just some plain ghee goes a long way in increasing the dumpling's richness 
+- unless you have been making dumpling skins for years or have a pasta machine to roll them out for you I do not recommend trying to make them at home. This recipie is already annoyingly time consuming
+- that being said, the good part of making skins yourself is size control. I recommend making them slightly larger than you think you'll need to make your life easier when folding the dumplings.
