@@ -30,7 +30,7 @@ Turns out this is way cheaper than Kahlua as long as you make it as sweet as Kah
 7. After it has "brewed", pour out the jar into a double-filtered hario, you can use a metal sieve too to get out the heavy bits
 8. Add a splash of vanilla extract
 9. Prepare a 1:1 simple syrup (volumetrically 1-to-1, so 255ml of water to 200g of sugar)
-10. Add the simple syrup to the liqueur to taste. I wrote down "150" but I can't remember if I did 150g of syrup or 150ml. If you're looking to get it to taste like Kahlua, you'll need to put in a lot of syrup (it'll need to be like 60% simple syrup)
+10. Add the simple syrup to the liqueur to taste. I wrote down "150" but I can't remember if I did 150g of syrup or 150ml. If you're looking to get it to taste like Kahlua, you'll need to put in a lot (it'll need to be like 60% simple syrup)
 
 ### Notes
 

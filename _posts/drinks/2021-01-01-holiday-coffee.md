@@ -4,7 +4,7 @@ author: jack
 time: 10
 ---
 
-> "Really gross" — Quinn
+*"Really gross" — Quinn*
 
 <section markdown="1">
 
