@@ -1,5 +1,5 @@
 ---
-title: Cacio e Pepe(Parmesan Pasta)
+title: Cacio e Pepe (Parmesan Pasta)
 author: Quinn
 time: 15
 ---
