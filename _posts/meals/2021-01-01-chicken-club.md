@@ -17,7 +17,7 @@ The Lazy Scholar's "Spicy Chicken Club", reverse engineered by Club Club in 2017
 - Pre-sliced Processed American cheddar cheese
 - Mayonnaise
 - *Frank's Red Hot* hot-sauce
-- Hamburgar buns
+- Hamburger buns
 
 </section>
 

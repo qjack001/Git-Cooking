@@ -85,22 +85,20 @@
 		text-transform: capitalize;
 	}
 
-	a#edit-button
+	#edit-button
 	{
-		font-size: 0.35em;
+		display: inline-block;
+		margin-left: 1.5ch;
+		transform: translateY(-8px);
+		padding: 8px 1ch;
+		border-radius: 4px;
+		background: #ddd;
+		color: #222;
+		font-size: 0.3em;
 		font-weight: 500;
 		text-transform: uppercase;
 		letter-spacing: 0.02em;
 		text-decoration: none;
-		transform: translateY(-8px);
-		margin-left: 2ch;
-		display: inline-block;
-		opacity: 0;
-	}
-
-	h1:hover a#edit-button, a#edit-button:focus
-	{
-		opacity: 1;
 	}
 	
 	h2
@@ -151,7 +149,6 @@
 		line-height: 20px;
 		font-family: inherit;
 		border-radius: 4px;
-		
 	}
 	
 	header
@@ -424,15 +421,27 @@
 			transform: translateX(0px);
 			transition: transform 0.25s cubic-bezier(0,.75,.24,1);
 		}
+
+		#edit-button
+		{
+			display: block;
+			margin: 2.5rem 0;
+			padding: 0.7rem;
+			text-align: center;
+			font-size: 0.35em;
+			letter-spacing: 0.08em;
+		}
 		
 		article
 		{
 			margin-left: 0px;
 		}
 	}
+
 	@media screen and (max-width: 470px)
 	{
-		#cards {
+		#cards
+		{
 			grid-template-columns: unset;
 			grid-template-rows: repeat(3, 250px);
 		}
