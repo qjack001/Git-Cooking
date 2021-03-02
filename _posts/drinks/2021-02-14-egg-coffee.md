@@ -20,7 +20,7 @@ Similar to [the Vietnamese Coffee recipe](https://git-cook.net/drinks/vietnamese
 ## Instructions
 
 1. Follow pretty much the same steps as with a standard Vietnamese coffee, except don't put the condensed milk into your mug yet
-2. Fry 2 eggs sunny-side-up — *Look. I'm not putting a raw egg into my coffee. I know I eat raw eggs in cookie dough but that's different. It just is. If you feel differently, feel free to use just one, raw egg yolk.*
+2. Fry 2 eggs sunny-side-up — *Look. I'm not putting a raw egg into my coffee. I know I eat raw eggs in cookie dough but that's different. It just is. If you feel differently, feel free to use just one raw egg yolk.*
 3. Once the eggs are as lightly cooked as you would be willing to eat, over a small mixing bowl or cup, cut the yolks with a knife and let drain
 4. Eat the remaining fried eggs
 5. Add the condensed milk into the bowl and beat until the colour is lighter and the texture is uniformly thick
