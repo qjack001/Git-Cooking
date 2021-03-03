@@ -29,4 +29,4 @@ Ingredients for a 10 Inch Pan
 
 ### Notes
 
-A good tip if cooking in a pan you can cook the bottom a bit before topping to help cook botttom more but not required.
+A good tip if cooking in a pan you can cook the bottom a bit before topping to help brown the botttom more but not required.
