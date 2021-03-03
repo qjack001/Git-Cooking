@@ -24,7 +24,7 @@ Ingredients for a 10 Inch Pan
 ## Directions
 
 1. In a bowl combine all the dough ingredients. If it's too wet to knead, add more flour, but try to keep the dough as sticky as you can handle  
-2. Knead until smooth and elastic (hard to time but try to get a good gluten window aka when you can stregh it and see light through it with out it tearing).
+2. Knead until smooth and elastic (hard to time but try to get a good gluten window aka when you can stretch it and see light through it with out it tearing).
 3. Cover and let it double in size, 1-2 hours. (You can also simply throw it in the refrigerator and let it rise slowly for 1-7 days.)
 
 ### Notes
