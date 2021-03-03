@@ -9,8 +9,6 @@ time: 60
 
 ## Ingredients
 
-### Dough
-
 - 1 cup (120g) flour + more for kneading 
 - 1/2 tsp (3g) salt
 - 1/2 tsp (2-3g) sugar
