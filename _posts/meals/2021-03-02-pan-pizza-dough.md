@@ -1,5 +1,5 @@
 ---
-title: Yummy Pan Pizza Dough
+title: Pan Pizza Dough
 author: Quinn
 time: 60
 ---
