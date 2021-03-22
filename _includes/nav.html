@@ -2,7 +2,7 @@
 	<button onclick="document.getElementById('menu').classList.toggle('show')">=</button>
 </header>
 <nav id="menu">
-	<h6>Catagory</h6>
+	<h6>Category</h6>
 	<a {% if page.select == "meals" %} class="selected" {% endif %} id="c-meals" href="/meals"><span class="icon">🍽️</span>Meals</a>
 	<a {% if page.select == "drinks" %} class="selected" {% endif %} id="c-drinks" href="/drinks"><span class="icon">🍹</span>Drinks</a>
 	<a {% if page.select == "treats" %} class="selected" {% endif %} id="c-treats" href="/treats"><span class="icon">🍪</span>Treats</a>
