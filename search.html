@@ -5,14 +5,15 @@ select: search
 permalink: /search/
 ---
 
-<h2>Search
-<select name="time" onchange="document.getElementById('results').classList.remove('time-15', 'time-60', 'time-60-plus', 'time-1-day'); document.getElementById('results').classList.add(this.value);">
-	<option selected value="time-any">Any</option>
-	<option value="time-15">&lt; 15 min</option>
-	<option value="time-60">&lt; 1 hour</option>
-	<option value="time-60-plus">1+ hour</option>
-	<option value="time-1-day">1+ day</option>
-</select>
+<h2>
+	Search
+	<select name="time" onchange="document.getElementById('results').classList.remove('time-15', 'time-60', 'time-60-plus', 'time-1-day'); document.getElementById('results').classList.add(this.value);">
+		<option selected value="time-any">Any</option>
+		<option value="time-15">&lt; 15 min</option>
+		<option value="time-60">&lt; 1 hour</option>
+		<option value="time-60-plus">1+ hour</option>
+		<option value="time-1-day">1+ day</option>
+	</select>
 </h2>
 <div id="results" class="search">
 	{% for post in site.posts %}
