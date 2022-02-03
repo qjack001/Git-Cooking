@@ -10,12 +10,12 @@ Make a good amount of the best chocolate chip cookies
 
 ## Ingredients
 
-- 1 cup salted butter
-- 2 cups flour
+- 1 cup salted butter (220g)
+- 2 cups flour (380g)
 - 1 tps baking soda
 - A pinch of salt
-- 1 cup brown sugar
-- 1/3 cups white sugar
+- 1 cup brown sugar (130g)
+- 1/3 cups white sugar (75g)
 - 2 eggs
 - 2 tps vanilla extract
 - 1/2–1 bar of 70–78% dark chocolate
